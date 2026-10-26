@@ -32,6 +32,6 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: nyxvault-client-12-jar
+          name: nyxvault-client-14-jar
           path: build/libs/nyxvault-client-*.jar
           if-no-files-found: error
